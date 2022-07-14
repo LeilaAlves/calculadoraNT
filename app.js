@@ -7,4 +7,4 @@ function somar(numA, numB) {
     return resultado;
 }
 
-somar(resultado);
+somar();
