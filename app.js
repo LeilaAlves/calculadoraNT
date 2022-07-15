@@ -1,10 +1,11 @@
-let numA = 0;
-let numB = 0;
-
 function somar(numA, numB) {
-    let resultado = numA + numB;
-    console.log(resultado);
-    return resultado;
+    
+    if(!numA > 0 && !numB >0) {
+        return "Não é possível somar números negativos";
+    }else {
+        return numA + numB;
+    }
+
 }
 
-somar();
+somar()
