@@ -4,7 +4,7 @@ function somar() {
 
     if (!numeroA || !numeroB || numeroA < 0 || numeroB < 0) {
 
-        res.value = "Digite os números"
+        prompt(res.value) = "Preencha os campos para somar"
         return
     } else {
         res.value = parseInt(numeroA) + parseInt(numeroB)
