@@ -41,3 +41,11 @@ h2 {
     border: 1px;
     border-radius: 5px;
 }
+
+.autoria, p {
+    display: flex;
+    text-decoration: none;
+    color: #f8edf6;
+    justify-content: flex-end;
+    align-items:flex-end;
+}
