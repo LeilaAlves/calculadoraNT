@@ -1,0 +1,43 @@
+body {
+    background-color: #342c2e;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container, h2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+h2 {
+    color: #f8edf6;
+}
+
+#numA, #numB, #res {
+    border:#342c2e solid 1px;
+    border-radius: 5px;
+    background-color: #f8edf6;
+
+}
+
+.numAB, .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #f8edf6;
+    border-radius: 5px;
+}
+
+.container {
+    width: 200px;
+    margin:auto;
+
+}
+
+.bt-somar {
+    border: 1px;
+    border-radius: 5px;
+}

@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style type="text/css" src="/style.css"></style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script type="text/javascript" src="/app.js"></script>
     <title>Calculadora</title>
 </head>
 
 <body>
     <main>
-        <h1>Calculadora NewTab</h1>
+        <h2>Calculadora NewTab</h2>
 
         <div class="container">
             
             <div class="numAB">
-            <input type="number" id="numA" placeholder="Valor 1">
+            <input type="number" id="numA" placeholder="Valor 1"><br>
             
-            <input type="number" id="numB" placeholder="Valor 2">
+            <input type="number" id="numB" placeholder="Valor 2"><br>
             </div>
-
+            <br>
             <div class="bt-somar">
-            <button onclick="somar()">Somar</button>
-            </div>
-
+            <button onclick="somar()">Somar</button><br>
+            </div> 
+            
+            <br>
             <input type="text" id="res" disabled placeholder="Resultado">
 
         </div>
